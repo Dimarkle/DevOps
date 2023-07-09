@@ -62,6 +62,6 @@ commit 8364383c359a6b738a436d1b7745ccdce178df47
 
 * Кто автор функции synchronizedWriters?
 ```
-git log -S'func synchronizedWriters' --pretty=format:"%h %an %ad %s"
+git log -S'func synchronizedWriters' --pretty=format:'%h - %an %ae'
 Martin Atkins mart@degeneration.co.uk
 ```
