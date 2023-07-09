@@ -38,7 +38,7 @@ dd01a35078f040ca984cdd349f18d0b67e486c35 Update CHANGELOG.md
 
 * Найдите коммит, в котором была создана функция func providerSource, её определение в коде выглядит так: func providerSource(...) (вместо троеточия перечислены аргументы).
 ```
-git log -S'func providerSource' --oneline
+git log -S 'func providerSource(' --oneline
 8c928e8358 main: Consult local directories as potential mirrors of providers
 git show 8c928e835
 commit 8c928e83589d90a031f811fae52a81be7153e82f
@@ -62,6 +62,6 @@ commit 8364383c359a6b738a436d1b7745ccdce178df47
 
 * Кто автор функции synchronizedWriters?
 ```
-git log -S'func synchronizedWriters' --pretty=format:'%h - %an %ae'
+git log -S'func synchronizedWriters' --pretty=format:"%h %an %ad %s"
 Martin Atkins mart@degeneration.co.uk
 ```
