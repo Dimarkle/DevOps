@@ -3,6 +3,7 @@
 
 
 Задание 2
+https://github.com/Dimarkle/DevOps/tags
 
 Gitlad https://gitlab.com/Dimarkle/diman/-/tags
 
