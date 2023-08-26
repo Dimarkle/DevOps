@@ -17,10 +17,9 @@ ___
 
 ![263484499-2870fa37-6517-4239-8b9b-684c33f7aab2](https://github.com/Dimarkle/DevOps/assets/118626944/54f471c1-af1d-4d8f-b8c9-cb698b5ff768)
 
-
-
 ___
-![2 1](https://github.com/Dimarkle/DevOps/assets/118626944/2870fa37-6517-4239-8b9b-684c33f7aab2)
+![263484484-4826cee3-8edc-49ea-a117-39baaf5a30bc](https://github.com/Dimarkle/DevOps/assets/118626944/f3543d5e-9081-40c4-b64d-b57d6729a89a)
+
 ___
 #  Задание 3
 
