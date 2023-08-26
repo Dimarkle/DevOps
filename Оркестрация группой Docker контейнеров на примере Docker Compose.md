@@ -15,7 +15,8 @@ ___
 
 Создал машинку с помощью [Terraform](https://github.com/netology-group/virt-homeworks/tree/virt-11/05-virt-04-docker-compose/src/terraform)
 
-![263484484-4826cee3-8edc-49ea-a117-39baaf5a30bc](https://github.com/Dimarkle/DevOps/assets/118626944/dbbcb76c-9e40-4263-a1cf-721fbb419a3a)
+![263484499-2870fa37-6517-4239-8b9b-684c33f7aab2](https://github.com/Dimarkle/DevOps/assets/118626944/54f471c1-af1d-4d8f-b8c9-cb698b5ff768)
+
 
 
 ___
