@@ -51,9 +51,11 @@ resource "docker_container" "hello_world" {
 }
 ```
 * 5
+  
 ![6](https://github.com/Dimarkle/DevOps/assets/118626944/ec5806ee-1e76-4519-9d3f-60be395195eb)
 
 * 6
+  
 ![5](https://github.com/Dimarkle/DevOps/assets/118626944/6e5e05b1-fe4d-488c-bdeb-3b6086cda11a)
 
 terraform apply –auto-approve:  создает или обновляет инфраструктуру без согласия пользователя (yеs)
