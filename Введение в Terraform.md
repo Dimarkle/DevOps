@@ -60,12 +60,12 @@ resource "docker_container" "hello_world" {
 
 terraform apply –auto-approve:  создает или обновляет инфраструктуру без согласия пользователя (yеs)
 
-*7
+* 7
 
 ![7](https://github.com/Dimarkle/DevOps/assets/118626944/a1ec908f-9a27-447f-9618-1773f9f29ee3)
 
-Jбраз docker не был удален, так как он не относится к инфраструктуре создаваемой terraform
+* 8
 
-
+Keep_locally -  Если true, то образ Docker не будет удален , если  параметр  falls  он удалится .
 
 
