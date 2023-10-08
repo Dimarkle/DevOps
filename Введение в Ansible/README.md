@@ -42,4 +42,29 @@
 # 12 
 [Ссылка](https://github.com/Dimarkle/DevOps/tree/main/%D0%92%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B2%20Ansible/playbook%20(1))
 
+# Необязательная часть
+# 1
+![image](https://github.com/Dimarkle/DevOps/assets/118626944/5967fd32-ff4d-48f3-817e-c9aefc37a4c3)
+
+
+# 2
+![image](https://github.com/Dimarkle/DevOps/assets/118626944/238dac52-d1d2-4530-86fa-c45066fd31ff)
+
+
+# 3
+![image](https://github.com/Dimarkle/DevOps/assets/118626944/2fbb317f-0b62-4685-84fa-fe9fa0c7aefc)
+
+
+# 4
+
+![image](https://github.com/Dimarkle/DevOps/assets/118626944/8bfc3a82-a2bc-46db-bb80-3ca4c67bf245)
+
+![image](https://github.com/Dimarkle/DevOps/assets/118626944/d5d6991d-5a7c-4ccc-9252-6dcf4f49998d)
+
+
+
+# 6
+[Ссылка](https://github.com/Dimarkle/DevOps/tree/main/%D0%92%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B2%20Ansible/playbook%20(1))
+
+
 
