@@ -36,4 +36,6 @@
 # 11
 ![image](https://github.com/Dimarkle/DevOps/assets/118626944/7e809ab6-d96f-436f-b7b5-3f084f6a2d39)
 # 12 
+(Ссылка)[https://github.com/Dimarkle/DevOps/tree/main/%D0%92%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B2%20Ansible/playbook%20(1)]
+
 
