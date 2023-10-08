@@ -64,7 +64,7 @@
 
 
 # 6
-[Ссылка](https://github.com/Dimarkle/DevOps/tree/main/%D0%92%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B2%20Ansible/playbook%20(1))
+[Ссылка](https://github.com/Dimarkle/DevOps/tree/main/%D0%92%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B2%20Ansible/playbook(2))
 
 
 
