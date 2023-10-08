@@ -17,7 +17,7 @@
 ![image](https://github.com/Dimarkle/DevOps/assets/118626944/9b4541eb-89c1-4f2f-9819-aafff7f6bb17)
 
 # 5
-Внесём изменения в (group_vars)[https://github.com/Dimarkle/DevOps/tree/main/%D0%92%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B2%20Ansible/playbook%20(1)/group_vars]
+Внесём изменения в [group_vars](https://github.com/Dimarkle/DevOps/tree/main/%D0%92%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B2%20Ansible/playbook%20(1)/group_vars)
 # 6
 Снова запустим playbook site.yml:
 ![image](https://github.com/Dimarkle/DevOps/assets/118626944/a37057f7-980e-4518-9ac2-250a26adb03f)
