@@ -48,4 +48,4 @@ Playbook производит установку и настройку след�
 ---
 
 
-[Playbook]()
+[Playbook](https://github.com/Dimarkle/DevOps/tree/main/%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%20%D1%81%20Playbook/playbook)
