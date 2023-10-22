@@ -1,69 +1,52 @@
 # Домашнее задание к занятию 3 "Использование Ansible"
 
-# Описание [playbook](./site.yml)
+# Описание 
 
-## Plays
-- Install Clickhouse - установка и запуск Clickhouse
-- Install Vector - установка и запуск Vector
-- Install Lighthouse - установка и запуск Lighthouse, Nginx
 
-## Tags
-- `vector` по умолчанию выполняется, установлен на Play - `Install vector`
-- `clickhouse` по умолчанию выполняется, установлен на Play - `Install Clickhouse`
-- `lighthouse` по умолчанию выполняется, установлен на Play - `Install Lighthouse`
+Playbook выполняет загрузку и установку Clickhouse. Запускает сервис clickhouse-server и создает базу данных. Скачивает и устанавливает Vector. Изменяет конфигурацию для дальнейшей работы. Копирует файлы Lighthouse из репозитория, изменяет конфигурацию и запускает сервис.
 
-## Используемые переменные
 
-Файлы со значениями переменных лежат в директории `playbook/group_vars`
+Используемые параметры:
 
-### Clickhouse 
-[clickhouse_vars.yml](./group_vars/clickhouse/clickhouse_vars.yml) тут мы указываем версию clickhouse которая будет установленна и пакеты.
-```yml
----
-clickhouse_version: "22.3.3.44"
-clickhouse_packages:
-  - clickhouse-client
-  - clickhouse-server
-  - clickhouse-common-static
-```
+* name
+* hosts
+* tasks
+* block
+* ansible.builtin.get_url
+* url
+* dest
+* with_items
+* check_mode
+* rescue
+* become
+* ansible.builtin.yum
+* disable_gpg_check
+* notify
+* ansible.builtin.meta
+* ansible.builtin.command
+* register
+* failed_when
+* changed_when
+* handlers
+* ansible.builtin.service
+* state
+*ansible.builtin.template
+* mode
+* validate
+* owner
+* group
+* daemon_reload
+* command
+* pre_tasks
+* git
+* repo
+*version
 
-### Vector 
-[vector_vars.yml](./group_vars/vector/vector_vars.yml) тут мы указываем архитектуру rpm-пакета vector который будет скачен и далее установлен и тип sourse.in для конфигурации vector.
-```yml
----
-vector_arch: "x86_64"
-sourse_in_type: "stdin"
-```
+Теги не были использованы.
+[Playbook]()
 
-### Lighthouse
-[lighthouse_vars.yml](./group_vars/lighthouse/lighthouse_vars.yml) тут мы указываем имя для nginx. Для lighthouse: репозиторий, версию(коммит), путь установки, имя логфайла.
-```yml
----
-nginx_username: evgeniy
-lighthouse_vcs: https://github.com/VKCOM/lighthouse.git
-lighthouse_vcs_version: d701335c25cd1bb9b5155711190bad8ab852c2ce
-lighthouse_path: /var/www/lighthouse
-lighthouse_access_log_name: lighthouse
-```
 
-## Группы хостов
-[prod.yml](./inventory/prod.yml) 
-```yml
----
-clickhouse:
-  hosts:
-    clickhouse-01:
-      ansible_host: {host_ip}
-      ansible_user: {host_user}
-vector:
-  hosts:
-    vector-01:
-      ansible_host: {host_ip}
-      ansible_user: {host_user}
-lighthouse:
-  hosts:
-    lighthouse-01:
-      ansible_host: {host_ip}
-      ansible_user: {host_user}
-```
+
+
+
 
