@@ -1,3 +1,6 @@
 [submodule "Работа с ролью/vector-role"]
 	path = Работа с ролью/vector-role
 	url = https://github.com/Dimarkle/vector-role.git
+[submodule "Работа с ролью/lighthouse-role"]
+	path = Работа с ролью/lighthouse-role
+	url = https://github.com/Dimarkle/lighthouse-role.git

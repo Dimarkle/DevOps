@@ -3,3 +3,9 @@
     scm: git
     version: "1.13"
     name: clickhouse 
+  - src: git@github.com:Dimarkle/vector-role.git
+    version: "1.0.0"
+    name: vector
+  - src: https://github.com/Dimarkle/lighthouse-role.git
+    version: "1.0.0"
+    name: Lighthouse
