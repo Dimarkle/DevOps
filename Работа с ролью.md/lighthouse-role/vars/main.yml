@@ -1,6 +1,0 @@
----
-nginx_username: diman
-lighthouse_path: /var/www/lighthouse
-lighthouse_access_log_name: lighthouse
-user_id: 1000
-user_group_id: 1000
