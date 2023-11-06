@@ -276,14 +276,8 @@ localhost                  : ok=2    changed=1    unreachable=0    failed=0    s
 
 [collection](https://github.com/Dimarkle/my_own_collection)
 
-[tar.gz архив]()
-аа
+[tar.gz архив](https://github.com/Dimarkle/DevOps/blob/main/%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%81%D0%BE%D0%B1%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D1%85%20%D0%BC%D0%BE%D0%B4%D1%83%D0%BB%D0%B5%D0%B9/my_own_collection-1.0.0.tar.gz)
 
-ававававаавыаываывамм
-
-
-ааа
-аааа
 
 
 
