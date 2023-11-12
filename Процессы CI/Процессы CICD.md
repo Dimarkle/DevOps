@@ -35,7 +35,7 @@ INFO: Linux 5.15.0-76-generic amd64
   
 ![image](https://github.com/Dimarkle/DevOps/assets/118626944/0fb43985-ec1a-44b1-a7f8-7d455404f51f)
 
-* Внёс правки - fail.py
+* Внёс правки - [fail.py](https://github.com/Dimarkle/DevOps/blob/main/%D0%9F%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%D1%8B%20CI/fail.py)
 
 * Успешный анализ 
 
@@ -57,7 +57,7 @@ INFO: Linux 5.15.0-76-generic amd64
 # Знакомство с Maven
 
 
-* файл pom.xml
+* файл [pom.xml](https://github.com/Dimarkle/DevOps/blob/main/%D0%9F%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%D1%8B%20CI/pom.xml)
 
 
 
