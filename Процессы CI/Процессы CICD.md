@@ -51,7 +51,7 @@ INFO: Linux 5.15.0-76-generic amd64
 
 ![image](https://github.com/Dimarkle/DevOps/assets/118626944/11e54716-b5ef-4d26-aa7a-8c51c2238eb9)
 
-* файл (maven-metadata.xml)[https://github.com/Dimarkle/DevOps/blob/main/%D0%9F%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%D1%8B%20CI/maven-metadata.xml] 
+* файл [maven-metadata.xml](https://github.com/Dimarkle/DevOps/blob/main/%D0%9F%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%D1%8B%20CI/maven-metadata.xml)
 
 
 # Знакомство с Maven
