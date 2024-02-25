@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nginx
+  labels:
+    app: nginx
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: nginx
+  template:
+    metadata:
+      labels:
+        app: nginx
+    spec:
+      initContainers:
+      - name: busybox-init
+        image: busybox 
+        command: ['sh', '-c', "until nslookup nginx-service.default.svc.cluster.local >/dev/null 2>&1; do echo waiting for service; sleep 1; done;"]
+      containers:
+      - name: nginx
+        image: nginx
+        ports:
+        - containerPort: 80
+
+  
