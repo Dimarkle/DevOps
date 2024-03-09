@@ -1,0 +1,31 @@
+apiVersion: apps/v1
+kind: DaemonSet
+metadata:
+  name: deployment2
+  labels:
+    app: dep
+spec:
+  selector:
+    matchLabels:
+      app: dep
+  template:
+    metadata:
+      labels:
+        app: dep
+    spec:
+      containers:
+      - name: multitool
+        image: wbitt/network-multitool
+        volumeMounts:
+        - name: varlog
+          mountPath: /output
+        ports:
+        ports:
+        - containerPort: 80
+        env:
+        - name: HTTP_PORT
+          value: "80"
+      volumes:
+      - name: varlog
+        hostPath:
+          path: /var/log
