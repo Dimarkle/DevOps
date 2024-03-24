@@ -1,0 +1,35 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: volume
+  labels:
+    app: volume
+  namespace: default
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: volume
+  template:
+    metadata:
+      labels:
+        app: volume
+    spec:
+      containers:
+      - name: multitool
+        image: wbitt/network-multitool
+        volumeMounts:
+        - name: volume
+          mountPath: /input
+      - name: busybox
+        image: busybox
+        command: ['sh', '-c', 'while true; do date >> /output/busybox.log; sleep 5; done;']
+        volumeMounts:
+        - name: volume
+          mountPath: /output
+      volumes:
+      - name: volume
+        persistentVolumeClaim:
+          claimName: pvc-local
+       
+  
