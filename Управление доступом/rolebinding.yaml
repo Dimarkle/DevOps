@@ -1,0 +1,13 @@
+apiVersion: rbac.authorization.k8s.io/v1
+kind: RoleBinding
+metadata:
+  name: dima
+  namespace: default
+subjects:
+- kind: User
+  name: dima
+  apiGroup: rbac.authorization.k8s.io
+roleRef:
+  kind: Role
+  name: dima
+  apiGroup: rbac.authorization.k8s.io
